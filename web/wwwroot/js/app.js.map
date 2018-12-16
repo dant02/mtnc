@@ -1,1 +1,1 @@
-{"version":3,"file":"app.js","sourceRoot":"","sources":["../../scripts/app.ts"],"names":[],"mappings":"AAAA,SAAS,KAAK;IACV,OAAO,QAAQ,CAAC;AACpB,CAAC"}
+{"version":3,"file":"app.js","sourceRoot":"","sources":["../ts/app.ts"],"names":[],"mappings":"AAAA,SAAS,KAAK;IACV,OAAO,QAAQ,CAAC;AAEpB,CAAC"}

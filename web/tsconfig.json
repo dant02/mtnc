@@ -4,10 +4,10 @@
     "noEmitOnError": true,
     "sourceMap": true,
     "target": "es5",
-    "outDir": "./wwwroot/js"
+    "outDir": "wwwroot/js"
   },
   "files": [
-    "./scripts/app.ts"
+    "wwwroot/ts/app.ts"
   ],
   "compileOnSave": true
 }

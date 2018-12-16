@@ -6,8 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\" />
+    <None Include="wwwroot\js\app.js" />
+    <None Include="wwwroot\js\app.js.map" />
+    <None Include="wwwroot\ts\app.ts" />
   </ItemGroup>
+  
+  
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -16,6 +20,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <TypeScriptCompile Include="scripts\app.ts" />
+    <TypeScriptCompile Include="wwwroot\ts\app.ts">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </TypeScriptCompile>
   </ItemGroup>
+
+  
 </Project>
