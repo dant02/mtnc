@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using System.IO;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.FileProviders;
 
 namespace web
 {
@@ -18,6 +20,16 @@ namespace web
         {
             if (env.IsDevelopment())
                 app.UseDeveloperExceptionPage();
+
+            // inside wwwroot
+            app.UseStaticFiles();
+
+            // for source maps
+            app.UseStaticFiles(new StaticFileOptions
+            {
+                FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "scripts")),
+                RequestPath = "/scripts"
+            });
 
             app.UseMvcWithDefaultRoute();
         }
