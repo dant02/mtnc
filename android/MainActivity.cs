@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
+using Android.Widget;
 
 namespace android
 {
@@ -12,6 +13,12 @@ namespace android
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            var btn = FindViewById<Button>(Resource.Id.btn1);
+            btn.Click += (src, arg) =>
+            {
+                Toast.MakeText(this.ApplicationContext, "Clicked!", ToastLength.Long).Show();
+            };
         }
     }
 }

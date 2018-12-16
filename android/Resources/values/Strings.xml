@@ -1,4 +1,6 @@
 <resources>
-    <string name="app_name">android</string>
-    <string name="action_settings">Settings</string>
+  <string name="app_name">mtnc</string>
+  <string name="action_settings">Settings</string>
+  <string name="one">Welcom to the app</string>
+  <string name="btn">Click for action</string>
 </resources>
