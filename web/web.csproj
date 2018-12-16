@@ -8,10 +8,7 @@
   <ItemGroup>
     <None Include="wwwroot\js\app.js" />
     <None Include="wwwroot\js\app.js.map" />
-    <None Include="wwwroot\ts\app.ts" />
   </ItemGroup>
-  
-  
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
@@ -25,5 +22,4 @@
     </TypeScriptCompile>
   </ItemGroup>
 
-  
 </Project>
