@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <RootNamespace>mtnc.model</RootNamespace>
-    <AssemblyName>mtnc.model</AssemblyName>
+    <RootNamespace>mtnc.mdlr</RootNamespace>
+    <AssemblyName>mtnc.mdlr</AssemblyName>
   </PropertyGroup>
 
 </Project>
