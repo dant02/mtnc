@@ -16,4 +16,23 @@
             android:layout_height="wrap_content"
             android:text="@string/btn" />
 
+    <Button android:text="Set database defaults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dbDefaults" />
+
+    <Button android:text="Get data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dbGet" />
+
+    <Button android:text="List tables"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/dbGetTables" />
+
+    <Button android:text="Call history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/callHistory" />
 </LinearLayout>
