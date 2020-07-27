@@ -13,4 +13,13 @@ CREATE TABLE JobRecords (
     context VARCHAR(32)
 );
 
+CREATE TABLE Activities (
+    id INTEGER NOT NULL,
+    name VARCHAR(256) NOT NULL,
+);
+
+
+
+CREATE TABLE People ()
+
 COMMIT;
